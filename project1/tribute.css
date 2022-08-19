@@ -1,28 +1,36 @@
 .asia{
-    max-width: 30%;
+     background-image: url('mJRp4Xn.jpg');
+     border: 1px solid rgb(27, 22, 22);
+     width: 370px;
+     height: 370px;
+     background-repeat: no-repeat;
+    padding: 0%;
+    margin: 2em auto;
+    background-position:center ;
+    background-size: 100%;
+    border-radius: 10em;
     
-    margin-left: 460px;
-    border: 4px solid rgb(0, 109, 128);
-    border-radius: 80px;
-
 }
 #arm1{
-    margin-left: 620px;
+    margin: 2em auto -1em;
+    width: 50%;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 #arm2{
-    margin-left: 500px;
+    margin: 0em auto;
     font-size: 150%;
     font-style: italic;
-    
+    text-align: center;
+    width: 50%;
 }
 .tribprop{
     background-color: rgba(127, 140, 10, 0.395);
-    margin-left: 40px;
-    block-size: 800px;
+    width: 100%;
+    border: 2px solid black;
+    
     
 }
-
 
 .arm3{
     font-size: 20px;
@@ -35,138 +43,43 @@
     margin-right: 125px;
     font-size: 25px;
 }
-.arm4{
-    
-    margin-left: 20%;
-    font-size: 20px;
-       padding: 14px;
-        font-style: italic;
 
-}
-.zim2{
-     position: relative;
 
-      bottom: 60px;
-      left: 120px;
-        font-size: 25px;
+/*===================================================================
+=========================STYLING SECOND CONTAINER====================
+===================================================================*/
+
+.se_con p{
+    text-transform: capitalize;
+    text-indent: 8%;
+    font-size: 1.26em;
+    margin-left: 0.4em;
+    
 }
-.arm5{
+
+.se_con strong{
+    margin-right: 5.7em;
     
-    position: relative;
-    left: 20%;
-    bottom: 10px;
-    font-size: 20px;
-    padding-right: 20%;
-    
-    
-    font-style: italic;
 }
+
+.exep{
+    display: flex;
+    font-size: 1.3em;
+    justify-content: space-between;
+}
+
+.para{
+    margin-left: 5em;
+    font-size: 1.15em;
+    margin-top: 4px;
+    padding-top: 10px;
+}
+
 #p1{
-    position: relative;
-    bottom: 50px;
-    left:290px;
-    padding-right: 20%;
-    font-size: 20px;
-    font-style: italic;
+     text-align: left;
+     margin-right: 2em;
 }
-.s1{
-    position: relative;
-    
-        bottom: 110px;
-        left: 120px;
-        font-size: 25px;
 
-}
-.p2{
-    position: relative;
-        bottom: 100px;
-        left: 20%;
-        font-size: 20px;
-        font-style: italic;
-}
-.s2{
-    position: relative;
-
-    bottom: 50px;
-    left: 65px;
-    font-size: 25px;
-}
-.p3 {
-    position: relative;
-    bottom: 135px;
-    left: 20%;
-    font-size: 20px;
-    font-style: italic;
-}
-.s3{
-    position: relative;
-    
-        bottom: 90px;
-        left: 120px;
-        font-size: 25px;
-}
-.p4{
-    position: relative;
-        bottom: 168px;
-        left: 20%;
-        font-size: 20px;
-      
-        font-style: italic;
-}
-.s4{
-    position: relative;
-    
-        bottom: 120px;
-        left: 120px;
-        font-size: 25px;
-}
-.s5{
-    position: relative;
-    
-        bottom: 160px;
-        left: 120px;
-        font-size: 25px;
-}
-.p5{
-    position: relative;
-        bottom: 208px;
-        left: 20%;
-        font-size: 20px;
-    
-        font-style: italic
-
-}
-.s6{
-    position: relative;
-    
-        bottom: 195px;
-        left: 120px;
-        font-size: 25px;
-
-}
-.p6{
-position: relative;
-    bottom: 250px;
-    left: 20%;
-    font-size: 20px;
-
-    font-style: italic
-
-}
-.s7{position: relative;
-
-    bottom: 240px;
-    left: 120px;
-    font-size: 25px;
-
-
-}
-.p7{
-    position: relative;
-        bottom: 290px;
-        left: 20%;
-        font-size: 20px;
-    
-        font-style: italic
-
+#line{
+    margin-left: 12em;
 }
